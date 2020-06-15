@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    scroll-behavior: smooth;
+    background-color: #252525;
+}
+img{
+    object-fit: cover;
+}
+.contenedorMiniatura{
+    width: 80%;
+    height: 25vh;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: row;
+    cursor: pointer;
+}
+.explica{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    top: 0;
+    left: 0;
+    padding: 20px;
+}
+.explica h2{
+    color:white;
+}
+.imagen img{
+    width: 100%;
+    height: 100%;
+}
+.imagen{
+    width: 20%;
+    height: 100%;
+}
+.contenedor{
+    width: 80vw;
+    height: 65vh;
+    overflow-x: scroll; 
+    scroll-behavior: smooth;
+    margin: 0 auto;
+}
+.grande{
+    width: 500%;
+    height: 100%;
+    display: flex;
+}
+.grande>div{
+    width: 80vw;
+}
+.contenedor img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+::-webkit-scrollbar {display: none;} 
+
